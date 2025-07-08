@@ -1,0 +1,128 @@
+LANGUAGE
+
+Programming Lanaguage
+
+Identifiers
+
+Execution Flow 
+
+datatypes
+
+variables
+
+	local variables
+	global variables
+			intsance
+			static
+	
+	JVM Architecture:
+	================
+	java classname
+	
+	
+	JVM 	int a=123;
+	
+					      CLSS
+			loading   	linking     		intialization	
+			3			bytecode verifier     
+	
+			Memory Areas
+			
+		   method area heap area   stack area  pc register native methodstack	
+			
+			
+			Execution Engine
+			
+	Instance and static:
+	=======================
+	1)syntax
+		we will use static keyword for static properties
+		if there is no staic i.e instance (non-static)
+	
+	
+	2)memory		java classname
+		static properties will get memory only once when class loading into JVM
+		instance properties will get memory at the time of object creation
+		
+			class  A
+			
+			object A obj=new A();
+			
+			classname objname=new classname();
+			
+			
+	3)access
+			we can access static properties by using classname
+			we can access instance properties by using objname
+	
+	4)when to use
+			we can use static for common properties like countryname,schoolname,orgname...
+			we can use instance for unique properties like eid,email,contact,aadhar,pan,....
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	oops
+	
+	
+	exception handling
+	
+	
+	collections
+	
+	
+	multi threading
+	
+	
+	database
+	
+stage-2	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
