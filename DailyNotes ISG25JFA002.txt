@@ -1,3 +1,30 @@
+samarth 
+ravi
+pavan
+A.krishnavamshi
+MH.Krishnavamshi
+suhani
+chagan
+yash
+salik
+pratyush
+nahush
+krishtoper
+atul
+shashank
+harsh
+deepak gowtham
+muhnis
+adil
+shiv gupta
+mohit
+
+
+
+
+
+
+
 LANGUAGE
 
 Programming Lanaguage
@@ -5,6 +32,13 @@ Programming Lanaguage
 Identifiers
 
 Execution Flow 
+			javac filename.java
+			compiler
+	.java	------------->.class------->JVM byte code
+	...		compailation	java classname
+	...
+	...
+	...
 
 datatypes
 
@@ -63,11 +97,75 @@ variables
 	
 	
 	
-	
-	
+	Method signature:
+	================
+	accessmodifier returntype methodname(parameters)
+	{
+	....	
+	}
 	
 	
 	oops
+		Inheritance			extends,implements
+				single level			parent-->child	
+				multi level				grandparent-->parent--->child
+				hirarchie level			parent -->many child
+				hybrid level			any two inheritance levels
+				multiple level			many parents -->one child	
+				
+	Note:
+		MI is Not Supoorted by java through classes
+				
+				interface Parent	interface Parent1
+				{						{
+				m1();				m1();
+
+				}						}
+				
+				class Child implements Parent,Parent1
+				{
+				Child ch=new Child();
+				ch.m1();
+				
+				
+				m1()
+				{
+				
+				}
+				}
+				
+				
+	abstraction	
+	
+		methods
+			concrete methods
+			abstract methods	:method with out body/implementation
+			
+			public void m1()
+			{
+			...
+			...
+			}
+			public abstract void m2();
+			
+			
+			
+			
+		class		  : class is collection of only concrete methods	
+		0-100% abstract class: abstract class is a combination of both concrete+abstract
+		 100% interfaces	  : interface is a collection of only abstract methods
+	
+		
+		polymorphisam
+		
+		Abstraction
+		Encapsulation
+	
+NOTE:
+		1)By default package for every java file java.lang
+		2)By default parent class for every java class is java.lang.Object
+	
+	
 	
 	
 	exception handling
