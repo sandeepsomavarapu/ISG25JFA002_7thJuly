@@ -165,10 +165,107 @@ NOTE:
 		1)By default package for every java file java.lang
 		2)By default parent class for every java class is java.lang.Object
 	
+	Polymorphisam:
+	==============
+		many forms
+		
+		method overloading
+			method name is same signature is different
+									no of params
+									order of params
+									type of params
+		
+		
+		
+		method overriding
+			method name is same implementation is different
 	
 	
 	
-	exception handling
+	class ChristopherParents{
+			public void properties(){
+				sop("1000 crores ")
+			}
+			public void marriage(){
+				sop("x")
+			}
+	
+	}
+	
+	class Christopher {
+	@Override
+	public void marriage(){
+				sop("Y")
+			}
+	}
+	public(everywhere)
+	private(class level)
+	protected(inside package and outside packeg when child)
+	default(package level)
+	
+	Encapsulation:
+	==============
+		it is a process binding the data and its methods together
+	
+	
+			data must be private
+			methods must be public
+			
+	exception handling:
+	===================
+		1.system defined error messages
+		2.abnormal termination
+		
+		try,catch,finally,throw,throws
+		
+						Throwable
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+					error
+					
+					compile time error
+					runtime error-->exceptions
+					
+					
+			
+			
+					
+					
+		
+		
+		
+			1
+			2--->stop 
+			3
+			4
+			5
+			6
+			
+			1000
+		
+	
+	
+	String,StringBuffer,StringBuilder
+	Object class methods
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	collections
