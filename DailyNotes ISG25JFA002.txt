@@ -1,23 +1,23 @@
-samarth 
-ravi
-pavan
-A.krishnavamshi
-MH.Krishnavamshi
-suhani
-chagan
-yash
-salik
-pratyush
-nahush
-krishtoper
-atul
-shashank
-harsh
-deepak gowtham
-muhnis
-adil
-shiv gupta
-mohit
+samarth  :instance and static ,oops,access modifiers,this,super,constructor
+ravi       :execution flow,exception handling,oops
+pavan		:arrays,collections,execution flow
+A.krishnavamshi :instance and static and access modifiers ,this,super,final,constructor
+MH.Krishnavamshi:exception handling ,collections
+suhani	     : this,super,object,class,final,accesss modifiers
+chagan		 :instance and static and exception handling
+yash		 :oops and collections
+salik		 :oops,exception handling
+pratyush	 :execution flow,oops
+nahush       :execution flow,instance and static 
+krishtoper   :oops,instance and static
+atul		:java8 features 
+shashank      :multithreading
+harsh		  :	oops(inheritance,this,super,final,constructor)
+deepak gowtham:exception handling
+muhnis    :instance and static and oops
+adil	  :oops,exception handling
+shiv gupta: collections and concurrent collections
+mohit :java8 features and concurrent collections
 
 
 
@@ -254,31 +254,217 @@ NOTE:
 	
 	
 	String,StringBuffer,StringBuilder
+	
+	synchronized
+	
+	
+	public void m1()
+	{
+	
+	}
+	public synchronized void m2()
+	{
+	
+	}
+	
+	t1 t2 t3
+	
 	Object class methods
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	collections
-	
+		variable
+		
+		String name="sandeep";
+		
+		Array:
+		String names[]=new String[10]
+
+		1)no predefined methods
+		2)fixed in size
+		3)homogeneous
+		
+		
+		
+	collections:
+	===========
+		1)lots of utility methods
+		2)not fixed in size/growable in nature   AL->10-->16->(cc*3/2)+1
+		3)both homogeneous and haterogeneous object can store
+		
+				Object
+				Throwable
+				Collection
+		
+		List:
+			duplicates are allowed
+			insertion order is preserved
+			
+				Al
+				LL
+				Vector
+				Stack
+		
+		
+		
+		Multi threading
+		concurrent collections
+		java8 features
+		
+		
+		variables:
+		arrays:similar,fixed size,no methods
+	collections:
+		
+					Collection
+			List     			Set       Queue		
+1)duplicates are allowed
+2)insertion order preserved	
+		
+		
+		
+		MAP
+		
+	HM-->entry
+	LHM-->
+	TM--->keys
+		
 	
 	multi threading
-	
+		
+		Multi Tasking 
+			Process based  multitasking:executing several tasks simultaniously where each and every task is seperate independent process
+			thread based multitasking
+			
+			
+			1)implements Runnable (I)-->run()
+			2)extends Thread
+			3)implements Callable(FI)  call()
+			
+			
+			-->wait,notify,notifyAll
+			
+			class Employee implements Runnable
+			{
+			
+			run()
+			{
+			
+			
+			}
+			
+			}
+		
 	
 	database
+	========
+
 	
-stage-2	
+	
+	Spring:
+	=======
+	Framework
+	maven,gradle-->pom.xml--><project><dependencies><dependency>
+		-->jars-->dependencies
+	
+		-->central
+	.m2-->local repository
+	
+	Spring is a non-invasive framework,which is used to create light weight and loosley coupled applications
 	
 	
+	
+			non-invasive :will never force to implement predefined API,spring,hibernate
+			invasive:will force developer to implemente predefined api,struts
+			
+			
+			light weight
+			heavy weight
+			
+			loosley coupled
+			tightly coupled
+	
+	
+	
+	Servlet -->EJB-->Rod Johnson-->interface21-->spring -->2003
+	
+		1 implement Servlet
+		2 extends GernricServlet
+		3 extends HttpServlet-->12 methods
+		1*12
+		1000*12==12000
+		class Login extends HttpServlet{
+		
+		
+		
+		
+		}
+	
+	
+		class Employee{
+		
+		Employee(String ename){
+		
+		}
+		
+		}
+	
+		class Client{
+		
+		main()
+		{
+		//Employee emp=new Employee();spring container -->BeanFactory,ApplicationContext
+		emp.set,,....
+		}
+		
+		
+		container is going to perform entire life cycle of an object
+					creation 
+					wiring
+					configuring
+					destroying
+		
+		spring modules
+		20+
+		spring core--->dependency injection module
+		
+				setter injection--><property>
+				constructor injection-->
+				autowiring
+				
+				
+		spring jdbc
+		spring jpa
+		spring mvc
+		spring aop
+		spring cloud
+		spring Rest
+		..
+		..
+		..
+		..
+		
+		
+		Employee
+						configuration	--->XML,Annotation,java 
+				
+				Spring container
+		
+		
+		Client
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		}
 	
 	
 	
